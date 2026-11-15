@@ -1,0 +1,12 @@
+{
+  "id": "logo",
+  "type": "remotion",
+  "title": "Logo reveal with intro and outro",
+  "description": "The logo builds from its parts (stem, then accent stroke, then pixels), then the wordmark and tagline appear. Three versions: Sting, Intro and Outro, each in 16:9 and 9:16.",
+  "compositions": [
+    "Logo-Sting-16x9", "Logo-Sting-9x16",
+    "Logo-Intro-16x9", "Logo-Intro-9x16",
+    "Logo-Outro-16x9", "Logo-Outro-9x16"
+  ],
+  "next": "cd into the project folder, run npm ci once, edit content.json, then: npm run studio, or: python scripts/studio.py render --project {name} --comp Logo-Intro-16x9"
+}

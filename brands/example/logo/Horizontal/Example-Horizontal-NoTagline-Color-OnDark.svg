@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 150">
+  <g transform="translate(0,0)">
+    <g transform="translate(0,40) scale(0.6)">
+      <polygon points="0,0 58,-12 116,0 150,64 116,128 58,140 0,128" fill="#F4F1EA"/>
+      <polygon points="70,70 100,40 130,70 100,100" fill="#FF6B35"/>
+      <rect x="170" y="-30" width="12" height="12" fill="#FF6B35"/>
+      <rect x="184" y="-44" width="12" height="12" fill="#FF6B35"/>
+      <rect x="199" y="-20" width="10" height="10" fill="#FF6B35"/>
+    </g>
+    <g transform="translate(150,96)">
+      <text font-family="Poppins" font-weight="700" font-size="64" letter-spacing="3" fill="#F4F1EA">EXAMPLE</text>
+    </g>
+  </g>
+</svg>

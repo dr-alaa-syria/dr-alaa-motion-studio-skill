@@ -1,0 +1,2954 @@
+{
+ "source": "templates/remotion-kit/package-lock.json",
+ "note": "UNRESOLVED = not confirmed by a primary source; do not classify as MIT.",
+ "count": 293,
+ "licenses": {
+  "MIT": 230,
+  "ISC": 17,
+  "BSD-2-Clause": 9,
+  "UNKNOWN": 8,
+  "SEE LICENSE IN LICENSE.md": 6,
+  "BSD-3-Clause": 6,
+  "Apache-2.0": 5,
+  "MPL-2.0": 4,
+  "Remotion License": 2,
+  "Unlicense": 2,
+  "Python-2.0": 1,
+  "CC-BY-4.0": 1,
+  "BlueOak-1.0.0": 1,
+  "0BSD": 1
+ },
+ "packages": [
+  {
+   "name": "@babel/code-frame",
+   "version": "7.29.7",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/compat-data",
+   "version": "7.29.7",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/core",
+   "version": "7.29.13",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/parser",
+   "version": "7.29.14",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/types",
+   "version": "7.29.14",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "semver",
+   "version": "6.3.2",
+   "license_in_lock": "ISC",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/generator",
+   "version": "7.29.14",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/parser",
+   "version": "7.29.14",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/types",
+   "version": "7.29.14",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/helper-compilation-targets",
+   "version": "7.29.13",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "semver",
+   "version": "6.3.2",
+   "license_in_lock": "ISC",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/helper-globals",
+   "version": "7.29.7",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/helper-module-imports",
+   "version": "7.29.7",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/types",
+   "version": "7.29.14",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/helper-module-transforms",
+   "version": "7.29.14",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/helper-string-parser",
+   "version": "7.29.14",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/helper-validator-identifier",
+   "version": "7.29.7",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/helper-validator-option",
+   "version": "7.29.7",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/helpers",
+   "version": "7.29.14",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/types",
+   "version": "7.29.14",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/parser",
+   "version": "7.24.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/template",
+   "version": "7.29.7",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/parser",
+   "version": "7.29.14",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/types",
+   "version": "7.29.14",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/traverse",
+   "version": "7.29.14",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/parser",
+   "version": "7.29.14",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/types",
+   "version": "7.29.14",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@babel/types",
+   "version": "7.24.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@emnapi/core",
+   "version": "1.11.3",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@emnapi/runtime",
+   "version": "1.11.3",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@emnapi/wasi-threads",
+   "version": "1.2.3",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/aix-ppc64",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/android-arm",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/android-arm64",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/android-x64",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/darwin-arm64",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/darwin-x64",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/freebsd-arm64",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/freebsd-x64",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/linux-arm",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/linux-arm64",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/linux-ia32",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/linux-loong64",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/linux-mips64el",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/linux-ppc64",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/linux-riscv64",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/linux-s390x",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/linux-x64",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/netbsd-arm64",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/netbsd-x64",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/openbsd-arm64",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/openbsd-x64",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/openharmony-arm64",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/sunos-x64",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/win32-arm64",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/win32-ia32",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@esbuild/win32-x64",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@jridgewell/gen-mapping",
+   "version": "0.3.13",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@jridgewell/remapping",
+   "version": "2.3.5",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@jridgewell/resolve-uri",
+   "version": "3.1.3",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@jridgewell/source-map",
+   "version": "0.3.11",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@jridgewell/sourcemap-codec",
+   "version": "1.6.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@jridgewell/trace-mapping",
+   "version": "0.3.31",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@mediabunny/aac-encoder",
+   "version": "1.64.0",
+   "license_in_lock": "MPL-2.0",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@mediabunny/flac-encoder",
+   "version": "1.64.0",
+   "license_in_lock": "MPL-2.0",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@mediabunny/mp3-encoder",
+   "version": "1.64.0",
+   "license_in_lock": "MPL-2.0",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@napi-rs/wasm-runtime",
+   "version": "1.1.6",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@remotion/bundler",
+   "version": "4.0.540",
+   "license_in_lock": "SEE LICENSE IN LICENSE.md",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@remotion/captions",
+   "version": "4.0.540",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@remotion/cli",
+   "version": "4.0.540",
+   "license_in_lock": "SEE LICENSE IN LICENSE.md",
+   "kind": "direct",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@remotion/codemods",
+   "version": "4.0.540",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@remotion/compositor-darwin-arm64",
+   "version": "4.0.540",
+   "license_in_lock": "UNKNOWN",
+   "kind": "transitive",
+   "verification": [
+    "UNRESOLVED",
+    "Lock and npm metadata have no license field. Official repo packages/compositor/package.json says SEE LICENSE IN LICENSE.md, which points to the Remotion License by inference. The platform package has no LICENSE file. Needs Remotion confirmation."
+   ]
+  },
+  {
+   "name": "@remotion/compositor-darwin-x64",
+   "version": "4.0.540",
+   "license_in_lock": "UNKNOWN",
+   "kind": "transitive",
+   "verification": [
+    "UNRESOLVED",
+    "Lock and npm metadata have no license field. Official repo packages/compositor/package.json says SEE LICENSE IN LICENSE.md, which points to the Remotion License by inference. The platform package has no LICENSE file. Needs Remotion confirmation."
+   ]
+  },
+  {
+   "name": "@remotion/compositor-linux-arm64-gnu",
+   "version": "4.0.540",
+   "license_in_lock": "UNKNOWN",
+   "kind": "transitive",
+   "verification": [
+    "UNRESOLVED",
+    "Lock and npm metadata have no license field. Official repo packages/compositor/package.json says SEE LICENSE IN LICENSE.md, which points to the Remotion License by inference. The platform package has no LICENSE file. Needs Remotion confirmation."
+   ]
+  },
+  {
+   "name": "@remotion/compositor-linux-arm64-musl",
+   "version": "4.0.540",
+   "license_in_lock": "UNKNOWN",
+   "kind": "transitive",
+   "verification": [
+    "UNRESOLVED",
+    "Lock and npm metadata have no license field. Official repo packages/compositor/package.json says SEE LICENSE IN LICENSE.md, which points to the Remotion License by inference. The platform package has no LICENSE file. Needs Remotion confirmation."
+   ]
+  },
+  {
+   "name": "@remotion/compositor-linux-x64-gnu",
+   "version": "4.0.540",
+   "license_in_lock": "UNKNOWN",
+   "kind": "transitive",
+   "verification": [
+    "UNRESOLVED",
+    "Lock and npm metadata have no license field. Official repo packages/compositor/package.json says SEE LICENSE IN LICENSE.md, which points to the Remotion License by inference. The platform package has no LICENSE file. Needs Remotion confirmation."
+   ]
+  },
+  {
+   "name": "@remotion/compositor-linux-x64-musl",
+   "version": "4.0.540",
+   "license_in_lock": "UNKNOWN",
+   "kind": "transitive",
+   "verification": [
+    "UNRESOLVED",
+    "Lock and npm metadata have no license field. Official repo packages/compositor/package.json says SEE LICENSE IN LICENSE.md, which points to the Remotion License by inference. The platform package has no LICENSE file. Needs Remotion confirmation."
+   ]
+  },
+  {
+   "name": "@remotion/compositor-win32-x64-msvc",
+   "version": "4.0.540",
+   "license_in_lock": "UNKNOWN",
+   "kind": "transitive",
+   "verification": [
+    "UNRESOLVED",
+    "Lock and npm metadata have no license field. Official repo packages/compositor/package.json says SEE LICENSE IN LICENSE.md, which points to the Remotion License by inference. The platform package has no LICENSE file. Needs Remotion confirmation."
+   ]
+  },
+  {
+   "name": "@remotion/elevenlabs",
+   "version": "4.0.540",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@remotion/fonts",
+   "version": "4.0.540",
+   "license_in_lock": "MIT",
+   "kind": "direct",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@remotion/licensing",
+   "version": "4.0.540",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@remotion/media",
+   "version": "4.0.540",
+   "license_in_lock": "UNKNOWN",
+   "kind": "transitive",
+   "verification": [
+    "UNRESOLVED",
+    "No license field in the lock, in npm metadata, or in the official repo packages/media/package.json; no LICENSE file in the package."
+   ]
+  },
+  {
+   "name": "@remotion/media-utils",
+   "version": "4.0.540",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@remotion/openai-whisper",
+   "version": "4.0.540",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@remotion/paths",
+   "version": "4.0.540",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@remotion/player",
+   "version": "4.0.540",
+   "license_in_lock": "SEE LICENSE IN LICENSE.md",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@remotion/renderer",
+   "version": "4.0.540",
+   "license_in_lock": "SEE LICENSE IN LICENSE.md",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@remotion/sdk",
+   "version": "4.0.540",
+   "license_in_lock": "Remotion License",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@remotion/streaming",
+   "version": "4.0.540",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@remotion/studio",
+   "version": "4.0.540",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@remotion/studio-protocol",
+   "version": "4.0.540",
+   "license_in_lock": "Remotion License",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@remotion/studio-server",
+   "version": "4.0.540",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@remotion/studio-shared",
+   "version": "4.0.540",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@remotion/timeline-utils",
+   "version": "4.0.540",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@remotion/web-renderer",
+   "version": "4.0.540",
+   "license_in_lock": "SEE LICENSE IN LICENSE.md",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@remotion/zod-types",
+   "version": "4.0.540",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@rspack/binding",
+   "version": "2.3.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@rspack/binding-darwin-arm64",
+   "version": "2.3.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@rspack/binding-darwin-x64",
+   "version": "2.3.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@rspack/binding-linux-arm64-gnu",
+   "version": "2.3.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@rspack/binding-linux-arm64-musl",
+   "version": "2.3.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@rspack/binding-linux-ppc64-gnu",
+   "version": "2.3.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@rspack/binding-linux-riscv64-gnu",
+   "version": "2.3.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@rspack/binding-linux-riscv64-musl",
+   "version": "2.3.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@rspack/binding-linux-s390x-gnu",
+   "version": "2.3.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@rspack/binding-linux-x64-gnu",
+   "version": "2.3.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@rspack/binding-linux-x64-musl",
+   "version": "2.3.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@rspack/binding-wasm32-wasi",
+   "version": "2.3.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@rspack/binding-win32-arm64-msvc",
+   "version": "2.3.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@rspack/binding-win32-ia32-msvc",
+   "version": "2.3.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@rspack/binding-win32-x64-msvc",
+   "version": "2.3.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@rspack/core",
+   "version": "2.3.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@rspack/plugin-react-refresh",
+   "version": "2.0.2",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@svgr/babel-plugin-add-jsx-attribute",
+   "version": "8.0.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@svgr/babel-plugin-remove-jsx-attribute",
+   "version": "8.0.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@svgr/babel-plugin-remove-jsx-empty-expression",
+   "version": "8.0.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@svgr/babel-plugin-replace-jsx-attribute-value",
+   "version": "8.0.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@svgr/babel-plugin-svg-dynamic-title",
+   "version": "8.0.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@svgr/babel-plugin-svg-em-dimensions",
+   "version": "8.0.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@svgr/babel-plugin-transform-react-native-svg",
+   "version": "8.1.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@svgr/babel-plugin-transform-svg-component",
+   "version": "8.0.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@svgr/babel-preset",
+   "version": "8.1.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@svgr/core",
+   "version": "8.1.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@svgr/hast-util-to-babel-ast",
+   "version": "8.0.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@svgr/plugin-jsx",
+   "version": "8.1.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@tanstack/react-virtual",
+   "version": "3.14.9",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@tanstack/virtual-core",
+   "version": "3.17.7",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@tybys/wasm-util",
+   "version": "0.10.4",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@types/dom-mediacapture-transform",
+   "version": "0.1.12",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@types/dom-webcodecs",
+   "version": "0.1.13",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@types/eslint",
+   "version": "9.6.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@types/eslint-scope",
+   "version": "3.7.7",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@types/estree",
+   "version": "1.0.10",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@types/json-schema",
+   "version": "7.0.15",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@types/node",
+   "version": "26.6.6",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@types/react",
+   "version": "19.1.17",
+   "license_in_lock": "MIT",
+   "kind": "direct",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@webassemblyjs/ast",
+   "version": "1.14.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@webassemblyjs/floating-point-hex-parser",
+   "version": "1.13.2",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@webassemblyjs/helper-api-error",
+   "version": "1.13.2",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@webassemblyjs/helper-buffer",
+   "version": "1.14.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@webassemblyjs/helper-numbers",
+   "version": "1.13.2",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@webassemblyjs/helper-wasm-bytecode",
+   "version": "1.13.2",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@webassemblyjs/helper-wasm-section",
+   "version": "1.14.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@webassemblyjs/ieee754",
+   "version": "1.13.2",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@webassemblyjs/leb128",
+   "version": "1.13.2",
+   "license_in_lock": "Apache-2.0",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@webassemblyjs/utf8",
+   "version": "1.13.2",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@webassemblyjs/wasm-edit",
+   "version": "1.14.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@webassemblyjs/wasm-gen",
+   "version": "1.14.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@webassemblyjs/wasm-opt",
+   "version": "1.14.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@webassemblyjs/wasm-parser",
+   "version": "1.14.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@webassemblyjs/wast-printer",
+   "version": "1.14.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@xtuc/ieee754",
+   "version": "1.2.0",
+   "license_in_lock": "BSD-3-Clause",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "@xtuc/long",
+   "version": "4.2.2",
+   "license_in_lock": "Apache-2.0",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "acorn",
+   "version": "8.19.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "acorn-import-phases",
+   "version": "1.0.4",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "ajv",
+   "version": "8.20.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "ajv-formats",
+   "version": "3.0.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "ajv-keywords",
+   "version": "5.1.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "argparse",
+   "version": "2.0.1",
+   "license_in_lock": "Python-2.0",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "ast-types",
+   "version": "0.16.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "baseline-browser-mapping",
+   "version": "2.11.37",
+   "license_in_lock": "Apache-2.0",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "browserslist",
+   "version": "4.29.5",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "buffer-from",
+   "version": "1.1.2",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "callsites",
+   "version": "3.1.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "camelcase",
+   "version": "6.3.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "caniuse-lite",
+   "version": "1.0.30001826",
+   "license_in_lock": "CC-BY-4.0",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "chrome-trace-event",
+   "version": "1.0.4",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "commander",
+   "version": "2.20.3",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "convert-source-map",
+   "version": "2.0.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "cosmiconfig",
+   "version": "8.3.6",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "cross-spawn",
+   "version": "7.0.6",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "css-loader",
+   "version": "7.1.4",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "semver",
+   "version": "7.8.6",
+   "license_in_lock": "ISC",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "csstype",
+   "version": "3.2.3",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "debug",
+   "version": "4.4.3",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "define-lazy-prop",
+   "version": "2.0.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "dot-case",
+   "version": "3.0.4",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "dotenv",
+   "version": "17.3.1",
+   "license_in_lock": "BSD-2-Clause",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "electron-to-chromium",
+   "version": "1.5.486",
+   "license_in_lock": "ISC",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "enhanced-resolve",
+   "version": "5.27.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "entities",
+   "version": "4.5.0",
+   "license_in_lock": "BSD-2-Clause",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "error-ex",
+   "version": "1.3.4",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "es-module-lexer",
+   "version": "2.3.2",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "esbuild",
+   "version": "0.28.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "escalade",
+   "version": "3.2.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "eslint-scope",
+   "version": "5.1.1",
+   "license_in_lock": "BSD-2-Clause",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "esprima",
+   "version": "4.0.1",
+   "license_in_lock": "BSD-2-Clause",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "esrecurse",
+   "version": "4.3.0",
+   "license_in_lock": "BSD-2-Clause",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "estraverse",
+   "version": "5.3.0",
+   "license_in_lock": "BSD-2-Clause",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "estraverse",
+   "version": "4.3.0",
+   "license_in_lock": "BSD-2-Clause",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "events",
+   "version": "3.3.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "execa",
+   "version": "5.1.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "fast-deep-equal",
+   "version": "3.1.3",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "fast-uri",
+   "version": "3.1.9",
+   "license_in_lock": "BSD-3-Clause",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "fs-monkey",
+   "version": "1.0.3",
+   "license_in_lock": "Unlicense",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "gensync",
+   "version": "1.0.0-beta.2",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "get-stream",
+   "version": "6.0.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "glob-to-regexp",
+   "version": "0.4.1",
+   "license_in_lock": "BSD-2-Clause",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "graceful-fs",
+   "version": "4.2.12",
+   "license_in_lock": "BlueOak-1.0.0",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "has-flag",
+   "version": "4.0.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "human-signals",
+   "version": "2.1.0",
+   "license_in_lock": "Apache-2.0",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "icss-utils",
+   "version": "5.1.0",
+   "license_in_lock": "ISC",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "import-fresh",
+   "version": "3.3.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "is-arrayish",
+   "version": "0.2.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "is-docker",
+   "version": "2.2.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "is-stream",
+   "version": "2.0.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "is-wsl",
+   "version": "2.2.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "isexe",
+   "version": "2.0.0",
+   "license_in_lock": "ISC",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "jest-worker",
+   "version": "27.5.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "js-tokens",
+   "version": "4.0.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "js-yaml",
+   "version": "4.3.2",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "jsesc",
+   "version": "3.1.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "json-parse-even-better-errors",
+   "version": "2.3.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "json-schema-traverse",
+   "version": "1.0.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "json5",
+   "version": "2.2.3",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "kiwi-schema",
+   "version": "0.5.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "kleur",
+   "version": "3.0.3",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "lines-and-columns",
+   "version": "1.2.4",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "loader-runner",
+   "version": "4.3.2",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "lower-case",
+   "version": "2.0.2",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "lru-cache",
+   "version": "5.1.1",
+   "license_in_lock": "ISC",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "mediabunny",
+   "version": "1.64.0",
+   "license_in_lock": "MPL-2.0",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "memfs",
+   "version": "3.4.3",
+   "license_in_lock": "Unlicense",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "merge-stream",
+   "version": "2.0.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "mime-db",
+   "version": "1.52.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "mime-types",
+   "version": "2.1.35",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "mimic-fn",
+   "version": "2.1.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "minimist",
+   "version": "1.2.6",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "ms",
+   "version": "2.1.3",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "nanoid",
+   "version": "3.3.20",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "neo-async",
+   "version": "2.6.2",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "no-case",
+   "version": "3.0.4",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "node-releases",
+   "version": "2.0.64",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "npm-run-path",
+   "version": "4.0.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "onetime",
+   "version": "5.1.2",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "open",
+   "version": "8.4.2",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "parent-module",
+   "version": "1.0.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "parse-json",
+   "version": "5.2.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "path-key",
+   "version": "3.1.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "path-type",
+   "version": "4.0.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "picocolors",
+   "version": "1.1.1",
+   "license_in_lock": "ISC",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "postcss",
+   "version": "8.5.33",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "postcss-modules-extract-imports",
+   "version": "3.1.0",
+   "license_in_lock": "ISC",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "postcss-modules-local-by-default",
+   "version": "4.2.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "postcss-modules-scope",
+   "version": "3.2.1",
+   "license_in_lock": "ISC",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "postcss-modules-values",
+   "version": "4.0.0",
+   "license_in_lock": "ISC",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "postcss-selector-parser",
+   "version": "7.2.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "postcss-value-parser",
+   "version": "4.2.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "prismjs",
+   "version": "1.30.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "prompts",
+   "version": "2.4.2",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "react",
+   "version": "19.1.10",
+   "license_in_lock": "MIT",
+   "kind": "direct",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "react-dom",
+   "version": "19.1.10",
+   "license_in_lock": "MIT",
+   "kind": "direct",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "react-refresh",
+   "version": "0.18.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "recast",
+   "version": "0.23.21",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "source-map",
+   "version": "0.6.1",
+   "license_in_lock": "BSD-3-Clause",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "remotion",
+   "version": "4.0.540",
+   "license_in_lock": "SEE LICENSE IN LICENSE.md",
+   "kind": "direct",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "require-from-string",
+   "version": "2.0.2",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "resolve-from",
+   "version": "4.0.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "scheduler",
+   "version": "0.26.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "schema-utils",
+   "version": "4.8.3",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "semver",
+   "version": "7.5.3",
+   "license_in_lock": "ISC",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "lru-cache",
+   "version": "6.0.0",
+   "license_in_lock": "ISC",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "yallist",
+   "version": "4.0.0",
+   "license_in_lock": "ISC",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "shebang-command",
+   "version": "2.0.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "shebang-regex",
+   "version": "3.0.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "signal-exit",
+   "version": "3.0.7",
+   "license_in_lock": "ISC",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "sisteransi",
+   "version": "1.0.5",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "snake-case",
+   "version": "3.0.4",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "source-map",
+   "version": "0.8.0",
+   "license_in_lock": "BSD-3-Clause",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "source-map-js",
+   "version": "1.2.2",
+   "license_in_lock": "BSD-3-Clause",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "source-map-support",
+   "version": "0.5.21",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "source-map",
+   "version": "0.6.1",
+   "license_in_lock": "BSD-3-Clause",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "strip-final-newline",
+   "version": "2.0.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "style-loader",
+   "version": "4.0.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "supports-color",
+   "version": "8.1.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "svg-parser",
+   "version": "2.1.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "tapable",
+   "version": "2.3.4",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "terser",
+   "version": "5.51.2",
+   "license_in_lock": "BSD-2-Clause",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "terser-webpack-plugin",
+   "version": "5.6.1",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "tiny-invariant",
+   "version": "1.3.3",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "to-fast-properties",
+   "version": "2.0.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "tslib",
+   "version": "2.9.1",
+   "license_in_lock": "0BSD",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "typescript",
+   "version": "5.9.3",
+   "license_in_lock": "Apache-2.0",
+   "kind": "direct",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "undici-types",
+   "version": "8.9.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "update-browserslist-db",
+   "version": "1.3.4",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "util-deprecate",
+   "version": "1.0.2",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "watchpack",
+   "version": "2.6.4",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "webpack",
+   "version": "5.105.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "webpack-sources",
+   "version": "3.7.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "which",
+   "version": "2.0.2",
+   "license_in_lock": "ISC",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "ws",
+   "version": "8.21.0",
+   "license_in_lock": "MIT",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "yallist",
+   "version": "3.1.1",
+   "license_in_lock": "ISC",
+   "kind": "transitive",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  },
+  {
+   "name": "zod",
+   "version": "4.6.7",
+   "license_in_lock": "MIT",
+   "kind": "direct",
+   "verification": [
+    "FROM_LOCK",
+    "License as recorded in the lock; not individually re-checked in this phase."
+   ]
+  }
+ ],
+ "verified_on": "2026-11-16"
+}

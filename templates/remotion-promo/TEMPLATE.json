@@ -1,0 +1,9 @@
+{
+  "id": "promo",
+  "type": "remotion",
+  "title": "Promo: product or service ad",
+  "description": "Ad built from scene types (hook, statement, features, media, product, stat, cta) placed on the beat. Short (~15 s) and full (~27 s) cuts in 16:9 and 9:16.",
+  "compositions": ["Promo-Short-16x9", "Promo-Short-9x16", "Promo-Full-16x9", "Promo-Full-9x16"],
+  "music": "music_bed_120bpm.wav",
+  "next": "cd into the project folder, run npm ci once, edit content.json (put images and videos in public/media), then: npm run studio, or: python scripts/studio.py render --project {name} --comp Promo-Short-9x16"
+}

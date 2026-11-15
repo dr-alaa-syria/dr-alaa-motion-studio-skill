@@ -1,0 +1,62 @@
+{
+  "web_1080p": {
+    "description": "Web and YouTube master, H.264 high quality, 1920x1080 at 30 fps",
+    "ext": "mp4",
+    "dest": "exports/final",
+    "args": ["-r", "30", "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
+             "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart"]
+  },
+  "web_1080p_loud": {
+    "description": "Same as web_1080p, with audio loudness normalized to -14 LUFS",
+    "ext": "mp4",
+    "dest": "exports/final",
+    "args": ["-r", "30", "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
+             "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709",
+             "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-ar", "48000",
+             "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart"]
+  },
+  "web_1080p_qsv": {
+    "description": "Same as web_1080p using Intel Quick Sync (requires an Intel GPU with QSV; optional)",
+    "ext": "mp4",
+    "dest": "exports/final",
+    "args": ["-r", "30", "-c:v", "h264_qsv", "-global_quality", "20", "-pix_fmt", "nv12",
+             "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart"]
+  },
+  "social_9x16": {
+    "description": "Vertical social video from 16:9 source, letterboxed to 1080x1920",
+    "ext": "mp4",
+    "dest": "exports/social",
+    "vf": "scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2:black,setsar=1",
+    "args": ["-r", "30", "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p",
+             "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart"]
+  },
+  "social_9x16_native": {
+    "description": "Vertical social video from a native 9:16 source (no letterbox), loudness -14 LUFS",
+    "ext": "mp4",
+    "dest": "exports/social",
+    "vf": "scale=1080:1920:flags=lanczos,setsar=1",
+    "args": ["-r", "30", "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p",
+             "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709",
+             "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-ar", "48000",
+             "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart"]
+  },
+  "master_prores_hq": {
+    "description": "Editing master, ProRes 422 HQ with 24-bit PCM audio (large files)",
+    "ext": "mov",
+    "dest": "exports/masters",
+    "args": ["-c:v", "prores_ks", "-profile:v", "3", "-pix_fmt", "yuv422p10le",
+             "-c:a", "pcm_s24le"]
+  },
+  "audio_wav_48k": {
+    "description": "Uncompressed audio for editing: WAV 48 kHz 24-bit",
+    "ext": "wav",
+    "dest": "exports/audio",
+    "args": ["-vn", "-ar", "48000", "-c:a", "pcm_s24le"]
+  },
+  "audio_mp3_320": {
+    "description": "Audio for publishing: MP3 320 kbps (not yet verified in this edition)",
+    "ext": "mp3",
+    "dest": "exports/audio",
+    "args": ["-vn", "-c:a", "libmp3lame", "-b:a", "320k"]
+  }
+}

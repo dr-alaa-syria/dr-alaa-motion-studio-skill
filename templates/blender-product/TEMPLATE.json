@@ -1,0 +1,9 @@
+{
+  "id": "product",
+  "type": "blender",
+  "title": "3D product shot (Blender, composited in Remotion)",
+  "description": "Dark Eevee scene built by script: turntable pedestal with an accent ring, rim lighting, rising pixels, and three camera moves (push, orbit, top) in 16:9 and 9:16. Uses your model (GLB, GLTF, FBX or OBJ) or the brand mark in 3D.",
+  "compositions": ["CAM_push", "CAM_orbit", "CAM_top"],
+  "build_script": "build_product_scene.py",
+  "next": "Preview: python scripts/studio.py blender-shot --project {name} --shot push --format 16x9  |  Final: add --percent 100  |  To composite: add --to-remotion <promo project>"
+}

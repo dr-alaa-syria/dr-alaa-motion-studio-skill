@@ -1,0 +1,28 @@
+{
+  "theme": "dark",
+  "bpm": 120,
+  "sound": true,
+  "music": { "file": "music/bed.wav", "volume": 0.5 },
+  "voiceover": { "file": null, "volume": 1, "duckTo": 0.35 },
+  "frame": {
+    "showMark": true,
+    "tag": "TIPS ■ نصائح",
+    "handle": "@example",
+    "progressBar": true
+  },
+  "lines": [
+    { "text": "عندك *فكرة؟*", "beats": 3 },
+    { "text": "الناس لن *تراها*", "beats": 3 },
+    { "text": "إذا لم *تُعرض* بشكل صحيح.", "beats": 3, "flip": "lime" },
+    { "text": "المحتوى ليس *كمية*", "beats": 3 },
+    { "text": "المحتوى *قصة.*", "beats": 4, "punch": true, "echo": true },
+    { "text": "وكل قصة تحتاج *بداية قوية.*", "beats": 4 },
+    { "text": "فكرة واضحة ← *تأثير.*", "beats": 3, "layout": "flow" }
+  ],
+  "end": {
+    "enabled": true,
+    "beats": 8,
+    "headline": "تابعنا لمزيد *من الأفكار.*",
+    "showLogo": true
+  }
+}

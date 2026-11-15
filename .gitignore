@@ -1,0 +1,27 @@
+# Local configuration (may contain personal paths)
+studio.config.json
+
+# Project output and caches
+node_modules/
+out/
+.cache/
+.remotion/
+__pycache__/
+*.pyc
+
+# Generated media and renders (regenerate with the scripts)
+*.mp4
+*.mov
+*.wav
+*.mp3
+
+# Blender autosave and backups
+*.blend1
+*.blend2
+*.bak
+
+# OS and editor files
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,3 @@
+# Python dependencies (the studio CLI itself uses only the standard library).
+# numpy is needed by the sound and music generators.
+numpy>=1.26

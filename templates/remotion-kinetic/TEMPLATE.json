@@ -1,0 +1,9 @@
+{
+  "id": "kinetic",
+  "type": "remotion",
+  "title": "Kinetic typography reel (Arabic)",
+  "description": "Short lines revealed word by word on the beat. The emphasized word is set large on its own line. Background flips on the beat, optional punch and echo, and an end card with the logo.",
+  "compositions": ["Kinetic-9x16", "Kinetic-16x9"],
+  "music": "music_bed_120bpm.wav",
+  "next": "cd into the project folder, run npm ci once, write your lines in content.json, then: npm run studio, or: python scripts/studio.py render --project {name} --comp Kinetic-9x16"
+}

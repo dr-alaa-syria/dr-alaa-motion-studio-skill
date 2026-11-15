@@ -1,0 +1,12 @@
+{
+  "theme": "dark",
+  "transparent": false,
+  "sound": true,
+  "showTagline": true,
+  "background": "grid",
+  "outro": {
+    "headline": "Your idea, *in motion.*",
+    "showContacts": true,
+    "contacts": ["phone", "instagram", "email"]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "theme": "dark",
+  "bpm": 120,
+  "sound": true,
+  "music": { "file": "music/bed.wav", "volume": 0.5 },
+  "voiceover": { "file": null, "volume": 1, "duckTo": 0.35 },
+  "scenes": [
+    {
+      "type": "hook",
+      "beats": 6,
+      "inShort": true,
+      "label": "EXAMPLE ■ مثال",
+      "headline": "فكرتك *تستحق* الظهور."
+    },
+    {
+      "type": "statement",
+      "beats": 6,
+      "inShort": false,
+      "index": "01",
+      "kicker": "لماذا نحن",
+      "headline": "الفكرة وحدها *لا تكفي.*"
+    },
+    {
+      "type": "features",
+      "beats": 12,
+      "inShort": true,
+      "title": "ماذا *نقدم؟*",
+      "items": [
+        { "icon": "play", "title": "إنتاج فيديو" },
+        { "icon": "instagram", "title": "محتوى قصير" },
+        { "icon": "spark", "title": "موشن غرافيك" },
+        { "icon": "check", "title": "مونتاج وتسليم" }
+      ]
+    },
+    {
+      "type": "product",
+      "beats": 6,
+      "inShort": true,
+      "transition": "zoom",
+      "label": "3D ■ ثلاثي الأبعاد",
+      "badge": "جديد",
+      "headline": "منتجك *بأبعاد ثلاثة.*"
+    },
+    {
+      "type": "media",
+      "beats": 10,
+      "inShort": false,
+      "caption": "نصنع *تأثيراً* حقيقياً."
+    },
+    {
+      "type": "stat",
+      "beats": 8,
+      "inShort": false,
+      "theme": "lime",
+      "value": 3,
+      "label": "خطوات: *فكرة، إنتاج، تأثير.*"
+    },
+    {
+      "type": "cta",
+      "beats": 12,
+      "inShort": true,
+      "headline": "لنتحدث *الآن.*",
+      "button": "تواصل معنا",
+      "showLogo": true,
+      "contacts": ["instagram", "phone"]
+    }
+  ]
+}

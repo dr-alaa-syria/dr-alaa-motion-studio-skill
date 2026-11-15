@@ -1,0 +1,84 @@
+{
+ "horizontal": {
+  "source": "Example-Horizontal-Color-OnDark.svg",
+  "viewBox": [
+   0.0,
+   0.0,
+   520.0,
+   150.0
+  ],
+  "mark": {
+   "x": 0.0,
+   "y": 40.0,
+   "scale": 0.6
+  },
+  "wordmark": {
+   "transform": {
+    "x": 150.0,
+    "y": 96.0,
+    "scale": 1.0
+   },
+   "svg": "<text font-family=\"Poppins\" font-weight=\"700\" font-size=\"64\" letter-spacing=\"3\" fill=\"{fg}\">EXAMPLE</text>\n    "
+  },
+  "tagline": {
+   "transform": {
+    "x": 152.0,
+    "y": 128.0,
+    "scale": 1.0
+   },
+   "svg": "<text font-family=\"Poppins\" font-weight=\"400\" font-size=\"20\" fill=\"{tagAccent}\">Your idea, in motion.</text>\n    "
+  }
+ },
+ "horizontalNoTagline": {
+  "source": "Example-Horizontal-NoTagline-Color-OnDark.svg",
+  "viewBox": [
+   0.0,
+   0.0,
+   520.0,
+   150.0
+  ],
+  "mark": {
+   "x": 0.0,
+   "y": 40.0,
+   "scale": 0.6
+  },
+  "wordmark": {
+   "transform": {
+    "x": 150.0,
+    "y": 96.0,
+    "scale": 1.0
+   },
+   "svg": "<text font-family=\"Poppins\" font-weight=\"700\" font-size=\"64\" letter-spacing=\"3\" fill=\"{fg}\">EXAMPLE</text>\n    "
+  }
+ },
+ "stacked": {
+  "source": "Example-Stacked-Color-OnDark.svg",
+  "viewBox": [
+   0.0,
+   0.0,
+   420.0,
+   320.0
+  ],
+  "mark": {
+   "x": 116.0,
+   "y": 54.0,
+   "scale": 0.9
+  },
+  "wordmark": {
+   "transform": {
+    "x": 210.0,
+    "y": 250.0,
+    "scale": 1.0
+   },
+   "svg": "<text text-anchor=\"middle\" font-family=\"Poppins\" font-weight=\"700\" font-size=\"60\" letter-spacing=\"3\" fill=\"{fg}\">EXAMPLE</text>\n    "
+  },
+  "tagline": {
+   "transform": {
+    "x": 210.0,
+    "y": 296.0,
+    "scale": 1.0
+   },
+   "svg": "<text text-anchor=\"middle\" font-family=\"Poppins\" font-weight=\"400\" font-size=\"20\" fill=\"{tagAccent}\">Your idea, in motion.</text>\n    "
+  }
+ }
+}

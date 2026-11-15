@@ -1,0 +1,109 @@
+{
+  "id": "example",
+  "version": "1.0",
+  "name": "EXAMPLE",
+  "nameAr": "مثال",
+  "tagline": { "text": "Your idea, in motion.", "accentWord": "motion." },
+  "taglineAr": "فكرتك، في حركة.",
+
+  "colors": {
+    "ink": "#101418",
+    "paper": "#F4F1EA",
+    "accent": "#FF6B35",
+    "secondary": "#3D7BFF",
+    "gray900": "#161B21",
+    "gray800": "#1E252D",
+    "gray700": "#2B343E",
+    "gray500": "#6B7480",
+    "gray300": "#B9C0C8"
+  },
+
+  "themes": {
+    "dark": {
+      "bg": "#101418", "fg": "#F4F1EA", "accent": "#FF6B35", "muted": "#6B7480",
+      "surface": "#161B21", "line": "#1E252D",
+      "markBase": "#F4F1EA", "markAccent": "#FF6B35",
+      "highlight": "color", "logo": "OnDark"
+    },
+    "light": {
+      "bg": "#F4F1EA", "fg": "#101418", "accent": "#FF6B35", "muted": "#6B7480",
+      "surface": "#E7E3D9", "line": "#D6D1C4",
+      "markBase": "#101418", "markAccent": "#FF6B35",
+      "highlight": "box", "logo": "OnLight"
+    },
+    "lime": {
+      "bg": "#FF6B35", "fg": "#101418", "accent": "#101418", "muted": "#5A2A17",
+      "surface": "#F25E2A", "line": "#E65520",
+      "markBase": "#101418", "markAccent": "#101418",
+      "highlight": "box", "logo": "MonoBlack"
+    }
+  },
+
+  "fonts": {
+    "arabic": {
+      "family": "Cairo",
+      "faces": [
+        { "weight": 400, "file": "fonts/Cairo-Regular.ttf" },
+        { "weight": 700, "file": "fonts/Cairo-Bold.ttf" }
+      ]
+    },
+    "latin": {
+      "family": "Poppins",
+      "faces": [
+        { "weight": 400, "file": "fonts/Poppins-Regular.ttf" },
+        { "weight": 700, "file": "fonts/Poppins-Bold.ttf" }
+      ]
+    }
+  },
+
+  "type": {
+    "headlineWeight": 700,
+    "bodyWeight": 400,
+    "headlineLineHeight": 1.2,
+    "bodyLineHeight": 1.6,
+    "labelTracking": "0.14em"
+  },
+
+  "logo": {
+    "mark": {
+      "viewBox": [0, -48, 216, 191],
+      "parts": [
+        { "role": "base", "type": "polygon", "points": "0,0 58,-12 116,0 150,64 116,128 58,140 0,128" },
+        { "role": "accent", "type": "polygon", "points": "70,70 100,40 130,70 100,100" },
+        { "role": "pixel", "type": "rect", "x": 170, "y": -30, "w": 12 },
+        { "role": "pixel", "type": "rect", "x": 184, "y": -44, "w": 12 },
+        { "role": "pixel", "type": "rect", "x": 199, "y": -20, "w": 10 }
+      ]
+    },
+    "wordmark": {
+      "aspect": 10.6,
+      "files": {
+        "OnDark": "logo/Wordmark/Example-Wordmark-Color-OnDark.svg",
+        "OnLight": "logo/Wordmark/Example-Wordmark-Color-OnLight.svg",
+        "MonoBlack": "logo/Wordmark/Example-Wordmark-Mono-Black.svg"
+      }
+    },
+    "lockupSources": {
+      "horizontal": "logo/Horizontal/Example-Horizontal-Color-OnDark.svg",
+      "horizontalNoTagline": "logo/Horizontal/Example-Horizontal-NoTagline-Color-OnDark.svg",
+      "stacked": "logo/Stacked/Example-Stacked-Color-OnDark.svg"
+    },
+    "minMarkHeightPx": 24,
+    "minHorizontalWidthPx": 120,
+    "hideTaglineBelowWidthPx": 200
+  },
+
+  "contact": {
+    "phone": "+000 000 0000",
+    "instagram": "@example",
+    "facebook": "example",
+    "email": "hello@example.com",
+    "website": "example.com"
+  },
+
+  "rules": [
+    "Example brand: a neutral placeholder for demos and tests. Replace every value with your own identity.",
+    "Use one accent colour for emphasis only.",
+    "Keep the logo flat: no shadows, glows, rotation or stretching."
+  ]
+}
