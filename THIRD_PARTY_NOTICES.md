@@ -18,8 +18,8 @@ Primary source: the official Remotion repository at tag `v4.0.540`, file `LICENS
 | `@remotion/cli` 4.0.540 | CONFIRMED | Same. |
 | `@remotion/renderer`, `@remotion/bundler`, `@remotion/player`, `@remotion/web-renderer`, `@remotion/sdk`, `@remotion/studio-protocol` | CONFIRMED (by metadata) | `SEE LICENSE IN LICENSE.md` or `Remotion License` in the lock. |
 | `@remotion/fonts` 4.0.540 | MIT per npm metadata | Confirm the LICENSE file inside the package before release. |
-| `@remotion/compositor-darwin-arm64`, `-darwin-x64`, `-linux-arm64-gnu`, `-linux-arm64-musl`, `-linux-x64-gnu`, `-linux-x64-musl`, `-win32-x64-msvc` (7) | **UNRESOLVED** | No `license` field in the lock or npm metadata. The packages contain no LICENSE file. The official repository's `packages/compositor/package.json` says `SEE LICENSE IN LICENSE.md`, which points to the Remotion License by inference. The platform packages are not confirmed individually. |
-| `@remotion/media` 4.0.540 | **UNRESOLVED** | No `license` field in the lock, in npm metadata, or in the official repository's `packages/media/package.json`. No LICENSE file in the package or the repository path. |
+| `@remotion/compositor-darwin-arm64`, `-darwin-x64`, `-linux-arm64-gnu`, `-linux-arm64-musl`, `-linux-x64-gnu`, `-linux-x64-musl`, `-win32-x64-msvc` (7) | **ANSWERED BY REMOTION, npm metadata to recheck** | At the time of the 4.0.540 npm release, no `license` field and no LICENSE file were present. Remotion's written answer (2026-11-16, see below) says every package by them is either Remotion License or MIT, and that the license field was added to the compositor in PR #13433 for their Rust code. The answer does not name each platform package for version 4.0.540, so the npm metadata of these packages must be rechecked before the classification is changed to CONFIRMED. |
+| `@remotion/media` 4.0.540 | **ANSWERED BY REMOTION, package not named** | No `license` field in the lock, in npm metadata, or in the official repository's `packages/media/package.json` at the time of the inquiry. Remotion's answer covers "every package by us" but does not name `@remotion/media` specifically. Recheck and confirm by name. |
 
 ### What the Remotion License says (verified text, tag v4.0.540)
 
@@ -31,16 +31,26 @@ Primary source: the official Remotion repository at tag `v4.0.540`, file `LICENS
 
 This repository does not contain Remotion code. The templates call Remotion's public API, which is installed by `npm ci` on the user's machine.
 
-### Unresolved items to confirm with Remotion
+### Remotion's written answer (received 2026-11-16)
 
-1. Does the Remotion License apply to the seven `@remotion/compositor-*` platform packages? Suggested question: "The compositor-* and @remotion/media npm packages have no license field and no LICENSE file. Which license applies to them in version 4.0.540?"
-2. Same question for `@remotion/media`.
+The inquiry was sent by email to `hi@remotion.dev` on 2026-11-15. Remotion replied on GitHub, in `remotion-dev/remotion` issue [#13426](https://github.com/remotion-dev/remotion/issues/13426). The issue was created from the inquiry, and it was closed as completed via pull request [#13433](https://github.com/remotion-dev/remotion/pull/13433). Their maintainer, JonnyBurger, wrote the following points:
 
-No contact was made with Remotion. Contacting them is an outward action that needs your approval. Channels: `remotion.dev/docs/support` or a GitHub issue on `remotion-dev/remotion`.
+1. The FFmpeg configuration is documented at `remotion.dev/docs/miscellaneous/ffmpeg-license`. Remotion uses a free version of fdk-aac.
+2. Patent rights for x264 are not procured by Remotion on the user's behalf.
+3. The missing license field in the compositor was fixed. It applies to Remotion's Rust code, not to FFmpeg.
+4. "Every package by us is either Remotion License or MIT. FFmpeg and multimedia codec licenses must also be respected."
+5. Question: may this MIT-licensed tool distribute its original template source files, which import and call Remotion APIs such as `import { Composition } from "remotion"`, provided no Remotion source code or binaries are copied into them? Answer: "Yes exactly, this is fine!"
+
+What this means for this project:
+- Distributing the original template source files under MIT is accepted by Remotion's maintainer, provided they contain no Remotion code.
+- The eight packages move from "no license" to "Remotion License or MIT". Whether each one carries that license in the npm metadata of version 4.0.540 still needs a per-package check. Remotion's answer is written, but it is an issue comment, not a license file in the package.
+- The inquiry was sent by email, but Remotion made it public in their issue tracker. Keep this in mind for any future questions.
+
+Still open: the per-package check for the eight packages in version 4.0.540 (npm metadata), and the confirmation of `@remotion/media` by name.
 
 ### FFmpeg inside the compositor packages
 
-The `@remotion/compositor-win32-x64-msvc` package contains `ffmpeg.exe` and related DLLs. Its build (`ffmpeg version n7.1`) is configured with `--enable-gpl`, `--enable-libx264`, `--enable-libx265`, and `--enable-libfdk-aac`. The `fdk-aac` library is not redistributable under a free license. This repository does not redistribute these binaries. Remotion is responsible for their licensing. Users should know that the FFmpeg inside Remotion is a GPL build with non-free components.
+The `@remotion/compositor-win32-x64-msvc` package contains `ffmpeg.exe` and related DLLs. Its build (`ffmpeg version n7.1`) is configured with `--enable-gpl`, `--enable-libx264`, `--enable-libx265`, and `--enable-libfdk-aac`. The `fdk-aac` library is not redistributable under a free license. This repository does not redistribute these binaries. Remotion is responsible for their licensing. Users should know that the FFmpeg inside Remotion is a GPL build with non-free components. Remotion's written answer (see above) confirms that FFmpeg and codec licenses are separate and must be respected by the user.
 
 ## 2. Other npm packages (pinned in `templates/remotion-kit/package.json`)
 
@@ -73,7 +83,7 @@ The lock pins **293 packages**. The full inventory with per-package status is in
 
 The 8 UNRESOLVED packages are not classified as MIT.
 
-**Release status (v0.1.0):** the release decision was taken without waiting for an answer. A written inquiry was sent to Remotion at `hi@remotion.dev`, the address listed in the official license FAQ. No reply had been received at release time. The eight UNRESOLVED packages stay UNRESOLVED in this file until a written answer is received and recorded here.
+**Release status:** the pre-release `v0.1.0-rc.1` was published before the answer arrived. Remotion's written answer is recorded above. The eight packages are no longer classed as UNRESOLVED, but their classification is pending the per-package check described above. The final `v0.1.0` should wait for that check.
 
 **Codec patents (not covered by any Remotion license):** the Remotion FAQ states that a Remotion license does not include licenses to third-party patents, for example patents on H.264/AVC, HEVC, or AAC. Users are responsible for determining whether they need additional licenses for the encoders this project calls.
 

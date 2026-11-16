@@ -4,6 +4,9 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versions follo
 
 ## [Unreleased]
 
+### Documentation
+- Recorded Remotion's written answer (issue #13426 on `remotion-dev/remotion`, 2026-11-16): packages are Remotion License or MIT, FFmpeg and codec licenses apply separately, and distributing MIT original templates that import Remotion APIs is accepted. The eight packages still need a per-package check against version 4.0.540.
+
 ### Added
 - Public edition identity: official name **Dr Alaa Motion Studio Skill**, repository `dr-alaa-motion-studio-skill`, skill name `dr-alaa-motion-studio`.
 - `LICENSE` (MIT, Copyright (c) 2026 Dr Alaa), applying to the original code only.
